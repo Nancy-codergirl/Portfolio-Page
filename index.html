@@ -6,146 +6,191 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio page</title>
     <link rel="stylesheet" href="./index.css">
-    <title>Nancy Portfolio</title>
-    <style>
-        body {
-            margin:0;
-            padding:0;
-            background-image: url("./Assets/download.jpeg");
-        }
-    </style>
+    <body style="background-color: black;">
+    </body>
 
 </head>
 <body>
-    <!-- Hero section -->
-    <!-- Start of Navbar -->
-    <div class="container">
-        <nav class="navbar sticky-top ">
-            <a class="navbar-brand" href="#">Nancy</a>
-        </nav>
-        
-    </div>
+      <!-- Start of Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" id="nav-h1"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="true" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                     <div class="navbar">
+                         <img src="./Assets/AvatarMaker (1).png" alt="">
+                <a href="#">Home</a>
+                <a href="#about">About</a>
+                <a href="#Services">Services</a>
+                <a href="#happyhour">Happy Hour</a>
+                 <a href="#Projects">Portfolio</a>
+                 <a href="Contact form">Hire Me Today:)</a>
+            </div>
+        </div>
+    </nav>
     <!-- End of Navbar -->
+
+    <div class="hero-container">
+        <div class="col-md-6 text-center">
+            <h1 id="hero-container">I create beautiful websites that your users will love</h1>
+        </div>
+        <br>
+        <button class="btn btn-color">Make It Happen</button>
+        <div class="row">
+        </div>
+    </div>
     <!-- Start of About -->
-    <div class="about">
+    <div class="about" id="about">
         <div class="row">
             <div class="col-md-6 clearfix">
-                <img src="./assets/img/aboutimg.jpg" alt="" width="100px" height="100px" >
+                <img src="./Assets/Nancy_Muriithi(1).jpg" alt="" height="200" width="200">
             </div>
             <div class="col-md-6 about-text">
-                <h3>LEARN ABOUT ME</h3>
-                <h1>10 Years Experience</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                    Dolores autem fugiat dolorum. Omnis voluptate laudantium reprehenderit unde
-                     obcaecati iste, 
-                    earum facere debitis, id dolores dignissimos ducimus praesentium amet iusto pariatur.
+                <h3 class="text-center" id="about-h3">LEARN ABOUT ME</h3>
+                <h1 class="text-center">6 Years Experience</h1>
+                <p id="about-paragraph">We grow our creative talents through experience: 
+                    whether it’s learning from a veteran designer about how things came to be or finding fresh delight in Smashing Magazine posts, 
+                    no great artist exists without inspiration. Famously declared in reference to scientific progress: 
+                    “If I have seen further it is by standing on the shoulders of Giants”, 
+                    <span>--said Isaac Newton.</span>
                 </p>
+                <br> <br>
+                <h3>Web Design</h3>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                </div>
+                <br> <br>
+                <h3>Animations</h3>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+                </div>
+                <br> <br>
+                <h3>Bill Boards</h3>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                </div>
+                <br> <br>
+
+                <button class="btn btn-color">Learn More</button>
 
             </div>
         </div>
     </div>
     <!-- End of About -->
     <!-- Start of Services -->
-    <div class="container">
-        <h3>WHAT I DO</h3>
-        <h1>Awesome Quality Services</h1>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="./assets/img/webd.png" alt="" width="100px" height="100px" >
-                    <div class="card-body">
-                        <h5 class="card-title">Web Design</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Quisquam, quis.
-                        </p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+    <div id="services"></div>
+    <div class="services">
+        <div class="container">
+            <h3 id="services-h3" >WHAT I DO</h3>
+            <h1 id="services-h1">Awesome Quality Services</h1>
+        </br>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./assets/img/webd.png" alt="" width="100px" height="100px" >
+                        <div class="card-body">
+                            <h5 class="card-title">Web Design</h5>
+                            <p class="card-text">“Content precedes design. Design in the absence of content is not design, it’s decoration.”
+                                <span>Jeffrey Zeldman</span> </p>
+            
+                            <a href="https://www.figma.com/file/eV8WCQfgqD882vLCsI51oc/kiusya?node-id=1%3A2" class="btn btn-color">Check This Out</a>
+                        </div>
+                    </div>
+                  
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./assets/img/webanime.png" alt="" width="100px" height="100px" >
+                        <div class="card-body">
+                            <h5 class="card-title">Animations</h5>
+                            <p class="card-text">“A lot of the time in animation is spent getting the story right – that's something you can't rush.” <span>– Jennifer Yuh Nelson.</span> 
+                            </p>
+                            <a href="https://dribbble.com/zack1274" class="btn btn-color">Check This Out</a>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./assets/img/billboard.png" alt="" width="100px" height="100px" >
+                        <div class="card-body">
+                            <h5 class="card-title">Bill Boards</h5>
+                            <p class="card-text">“If you think good design is expensive, you should look at the cost of bad design.”
+                                <span>Ralf Speth</span> 
+                            </p>
+                            <a href="https://dribbble.com/zack1274" class="btn btn-color">Check This Out</a>
+                        </div>
                     </div>
                 </div>
-              
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="./assets/img/webanime.png" alt="" width="100px" height="100px" >
-                    <div class="card-body">
-                        <h5 class="card-title">Web Design</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Quisquam, quis.
-                        </p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-                
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="./assets/img/billboard.png" alt="" width="100px" height="100px" >
-                    <div class="card-body">
-                        <h5 class="card-title">Web Design</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Quisquam, quis.
-                        </p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-    </div>
     
+            </div>
+    
+        </div>
+    </div>
     <!-- End of Services-->
     <!-- Start Resume Section -->
-    <div class="resume">
-        <h3>My Resume</h3>
-        <h1>Working Experience</h1>
+    <div class="resume" id="experience">
+    </br> </br> </br>
+        <h3  id="resume-h3"></h3>
+        <h1 id="resume-h1">Proffesional Experience</h1>
         <div class="timeline">
             <div class="container-resume left">
               <div class="content">
-                <h2>2017</h2>
-                <p>Lorem ipsum..</p>
+                <h2>2020</h2>
+                <p>Web Designer at
+                   <span id="span-resume"> Shehacks Kenya</span>
+                    Working as a Program coordinator.</p>
               </div>
             </div>
             <div class="container-resume right">
               <div class="content">
-                <h2>2016</h2>
-                <p>Lorem ipsum..</p>
+                <h2>2019</h2>
+                <p>cybersecurity analyst at
+                    <span id="span-resume"> Ihub Kenya</span>
+                     Took up a role of being a cybersecurity analyst </p>
               </div>
             </div>
             <div class="container-resume left">
                 <div class="content">
-                  <h2>2016</h2>
-                  <p>Lorem ipsum..</p>
+                  <h2>2016/h2>
+                  <p>Freelance web designer
+                    <span id="span-resume"> Upwork</span>
+                     Worked as a freelance designer </p>
                 </div>
             </div>
         </div>
 
     </div>
-    
     <!-- End of Resume Section -->
     <!-- Start of Portfolio Section -->
-    <div class="portfolio">
+    <div class="portfolio" id="portfolio">
+    </br></br></br>
         <div class="container">
-            <h3>My Portfolio</h3>
-            <h1>My Excellent Portfolio</h1>
+            <h3 class="text-center">My Portfolio</h3>
+            <h1 class="text-center">My Excellent Portfolio</h1>
             <div class="row">
                 <div class="col-md-6">
                     <div class="card">
-                        <img src="./assets/img/portfolioimg.jpg" alt="" width="100px" height="100px" >
+                        <img src="./assets/img/pic1 (1).jpeg" alt="" >
                         <div class="card-body">
-                            <h5 class="card-text">Web Design</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                            <a href=""><button class="btn btn-primary">link</button></a>
+                            <h5 class="card-text">Woofer speaker</h5>
+                            <p class="card-text">3D model of a woofer speaker.</p>
+                            <a href="https://dribbble.com/shots/15363342-3D-model-of-a-woofer-speaker"><button class="btn btn-color">link</button></a>
                         </div>
                     </div>
                   
                 </div>
                 <div class="col-md-6">
                     <div class="card">
-                        <img src="./assets/img/portfolioimg.jpg" alt="" width="100px" height="100px" >
+                        <img src="./assets/img/pic1 (2).jpeg" alt="" >
                         <div class="card-body">
-                            <h5 class="card-text">Web Design</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                            <a href=""><button class="btn btn-primary">link</button></a>
+                            <h5 class="card-text">Workstation</h5>
+                            <p class="card-text">3D model of house( workstation)</p>
+                            <a href="https://dribbble.com/shots/15437464-3D-model-of-house-workstation"><button class="btn btn-color">link</button></a>
                         </div>
                     </div>
                 </div>
@@ -154,24 +199,22 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="card">
-                        <img src="./assets/img/portfolioimg.jpg" alt="" width="100px" height="100px" >
+                        <img src="./assets/img/pic1 (3).jpeg" alt=""  >
                         <div class="card-body">
-                            <h5 class="card-title">Web Design</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Quisquam, quis.
-                            </p>
-                            <a href=""><button class="btn btn-primary">link</button></a>
+                            <h5 class="card-title">3D model work station</h5>
+                            <p class="card-text">A simple 3D model of a work station</p>
+                            <a href="https://dribbble.com/shots/15427661-A-simple-3D-model-of-a-work-station"><button class="btn btn-color">link</button></a>
                         </div>
                         
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="card">
-                        <img src="./assets/img/portfolioimg.jpg" alt="" width="100px" height="100px" >
+                        <img src="./assets/img/pic1 (4).jpeg" alt=""  >
                         <div class="card-body">
-                            <h5 class="card-text">Web Design</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                            <a href=""><button class="btn btn-primary">link</button></a>
+                            <h5 class="card-text">House</h5>
+                            <p class="card-text">A 3D model House.</p>
+                            <a href="https://dribbble.com/shots/15573565-3D-workstation-model/attachments/7358372?mode=media"><button class="btn btn-color">link</button></a>
                         </div>
                     </div>
                 </div>
@@ -179,14 +222,18 @@
         </div>
         
     </div>
+</br>
     <!-- End of Portfolio Section -->
        
     <!-- Start of Contact Section -->
-    <div class="contact">
+    
+    <div class="contact" id="contact">
+    </br>
         <div class="get_in_touch">
             <h1 class="title">get in touch</h1>
             <div class="container">
                 <div class="contact-form row">
+                    <p>I am available to work on your projects and bring your ideas to life. I am just a click away.</p>
                     <div class="form-field col-lg-6">
                         <input id="name" class="input-text" type="text" name="">
                         <label for="name" class="label">name</label>
@@ -194,10 +241,6 @@
                     <div class="form-field col-lg-6">
                         <input id="email" class="input-text" type="email" name="">
                         <label for="email" class="label">email</label>
-                    </div>
-                    <div class="form-field col-lg-6">
-                        <input id="company" class="input-text" type="text" name="">
-                        <label for="company" class="label">company name</label>
                     </div>
                     <div class="form-field col-lg-6">
                         <input id="phone" class="input-text" type="text" name="">
@@ -208,23 +251,25 @@
                         <label for="message" class="label">Message</label>
                     </div>
                     <div class="form-field col-lg-12">
-                        <input class="submit-btn" type="submit" value="submit" name="">
+                        <a href="#"><input class="submit-btn" type="submit" value="submit" name=""></a>
+                        
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
     <!-- End of Contact Section -->
+    <div id="Footer">
     <!-- Start of the footer -->
     <footer class="text-center">
-        <a class="navbar-brand" href="#">Nancy</a>
-        <p>34 Nairobi</p>
-        <p>+254 0795106091| info@outlook.com</p>
+        <a class="navbar-brand" href="#">Nancy Portfolio</a>
+        <p>34 Street, Nairobi Kenya</p>
+        <p>| info@gmail.com</p>
         <p>Copyright &copy; 2021 by <span>Nancy</span></p>
+        </footer>
     </footer>
     <!-- End of the footer Section -->
-    
-    
+    <!-- Start of bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>   
 </body>
 </html>
