@@ -36,7 +36,7 @@ h1{
     
   }
   .about{
-      background-color:hsl(0, 12%, 84%);
+      background-color:hsl(0, 4%, 63%);
   }
   .clearfix{
       overflow:hidden;
@@ -272,11 +272,11 @@ h1{
       width: 200px;
       cursor: pointer;
   }
-#footer{
+.footer{
      background-color: aliceblue;
      color: white;
      text-align: center;
 }
-#Navbar{
+.
     align-content: flex-start;
 }
