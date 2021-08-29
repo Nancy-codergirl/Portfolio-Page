@@ -277,4 +277,6 @@ h1{
      color: white;
      text-align: center;
 }
-     
+#Navbar{
+    align-content: flex-start;
+}
