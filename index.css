@@ -20,7 +20,7 @@ h1{
 }
 /* beautify the about section */
 #about-paragraph{
-  font-family;:animation:animation: display: margin-top: top: border: background-color: 
+  font-family:Georgia, 'Times New Roman', Times, serif
   line-height: 2em;
 }
 #hero-h1{
@@ -267,4 +267,3 @@ span{
     border: none;
     width: 200px;
     cursor: pointer;
-#footer;
