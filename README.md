@@ -7,6 +7,7 @@ I love helping clients bring their ideas to life.
 * You need a text editor to help you edit the code to your preference
 * Use git to push your work to Github and deploy to a live link
 ## Link to my site
+https://nancy-codergirl.github.io/Portfolio-Page/
 
 ## Project design for website
 * see [Website-Design](https://www.figma.com/file/hFbBHjc4sQzy3hwKdCezAH/My-portfolio?node-id=8%3A84) file
