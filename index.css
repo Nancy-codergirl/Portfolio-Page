@@ -20,19 +20,19 @@ h1{
 }
 /* beautify the about section */
 #about-paragraph{
-  font-family:Georgia, 'Times New Roman', Times, serif
+  font-family:Georgia, 'Times New Roman', Times, serif;
   line-height: 2em;
 }
 #hero-h1{
   color: #5543ca;
   margin-top: 30%;
-  text-decoration-style:double
+  text-decoration-style:double;
   font-family:wavy;
   font-size: 5em;
   
 }
 .about{
-    background-color:#A9CBEA
+    background-color:#A9CBEA;
 }
 .clearfix{
     overflow:hidden;
@@ -267,3 +267,4 @@ span{
     border: none;
     width: 200px;
     cursor: pointer;
+}
